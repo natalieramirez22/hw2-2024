@@ -44,20 +44,24 @@ div {
     line-height: 2;
 }
 
-.red {
+.red{
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid; /* color not specified in instructions */
-    border-left: 5px solid;
+    border-top: 0;
+    border-bottom: 2px solid #ffffff;
+    border-right: 0;
+    border-left: 5px solid #ffffff;
 }
 
 .blue {
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
-    border-top: 2px solid; /* color not specified in instructions */
-    border-right: 5px solid;
+    border-top: 2px solid #ffffff;
+    border-bottom: 0;
+    border-right: 5px solid #ffffff;
+    border-left: 0;
 }
 
 .blue h2 {
@@ -72,8 +76,10 @@ div {
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px solid; /* color not specified in instructions */
-    border-left: 5px solid;
+    border-top: 0;
+    border-bottom: 2px solid #ffffff;
+    border-right: 0;
+    border-left: 5px solid #ffffff;
 }
 
 .yellow p {
@@ -84,8 +90,10 @@ div {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-top: 2px solid; /* color not specified in instructions */
-    border-right: 5px solid;
+    border-top: 2px solid #ffffff;
+    border-bottom: 0;
+    border-right: 5px solid #ffffff;
+    border-left: 0;
 }
 
 footer {
